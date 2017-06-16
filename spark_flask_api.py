@@ -1,5 +1,4 @@
 #coding:utf8
-#http://www.cnblogs.com/vovlie/p/4178077.html
 from __future__ import print_function
 from flask import Flask, jsonify
 from flask import abort
@@ -71,3 +70,6 @@ def getspark():
 if __name__ == '__main__':
 
     app.run(debug=True)
+  
+#参考
+#http://www.cnblogs.com/vovlie/p/4178077.html
